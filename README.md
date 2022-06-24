@@ -12,7 +12,9 @@ Latin texts are taken from the Busa edition, found at Corpus Thomisticum. I also
 
 Footnotes on Biblical citations refer to Japanese translation of the bible in New Interconfessional Bible.
 
-** TeXファイルの整形方針 TeX file formatting policies.
+## TeXファイルの整形方針 TeX file formatting policies.
 
-- 一行70字で折り返し。Wrap at 70 characters per line.
-- 改行の連続は二つまで。（2行以上の空行を作らない） No more than two consecutive line breaks. (No more than two blank lines.)
+- 一行70字で折り返し。
+- Wrap at 70 characters per line.
+- 改行の連続は二つまで。（2行以上の空行を作らない）
+- No more than two consecutive line breaks. (No more than two blank lines.)
