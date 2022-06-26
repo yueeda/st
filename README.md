@@ -2,9 +2,9 @@
 
 
 
-ueeda's lab/translation/(http://ueeda.sakura.ne.jp/translation/)にまとめている、トマス・アクィナス『神学大全』の羅和対訳PDFのもとになっているtexファイルです。作業中のものを含んでいます。
+私のwebsite (ueeda's lab)にまとめている、トマス・アクィナス『神学大全』の羅和対訳PDFのもとになっているtexファイルです。作業中のものを含んでいます。
 
-These tex files are compiled into pdfs which are found at ueeda's lab/translation/(http://ueeda.sakura.ne.jp/translation/). They are Latin-Japanese translations of Thomas Aquinas's Theological Summa. Most of them have been used as materials for my classes. Some files are not finished.
+These tex files are compiled into pdfs which are found at my website (ueeda's lab). They are Latin-Japanese translations of Thomas Aquinas's Theological Summa. Most of them have been used as materials for my classes. Some files are not finished.
 
 ラテン語テキストは、Corpus ThomisticumにあるBusa版をもとに、Leonina版やBlackfriars版を参照しています。各問題の表題および各項冒頭の平行箇所はLeonina版に基づいています。
 
