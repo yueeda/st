@@ -18,3 +18,10 @@ Footnotes on Biblical citations refer to Japanese translation of the bible in Ne
 - Wrap at 70 characters per line.
 - 改行の連続は二つまで。（2行以上の空行を作らない）
 - No more than two consecutive line breaks. (No more than two blank lines.)
+
+## notice
+- いくつかのファイルは最後まで訳し終わっていません。
+- Some files are not translated all the way through.
+- 終了してコンパイルされたPDFのリストは以下の場所にまとめています。
+- Finished and compiled PDFs is found at the following locations.
+- ueeda's lab/translation http://ueeda.sakura.ne.jp/translation/
