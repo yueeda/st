@@ -4,6 +4,7 @@
 \usepackage[polutonikogreek,english,japanese]{babel}
 \usepackage{latexsym}
 \usepackage{color}
+\usepackage{schemata}
 
 %----- header -------
 \usepackage{fancyhdr}
@@ -51,7 +52,7 @@ Deinde considerandum est de distinctione virtutum moralium ad
 invicem. Et circa hoc quaeruntur quinque.
   
 \begin{enumerate}
- \item Primo, utrum sit tantum una virtus moralis.
+ \item utrum sit tantum una virtus moralis.
  \item utrum distinguantur virtutes morales quae sunt circa operationes, ab his quae sunt circa passiones.
  \item utrum circa operationes sit una tantum moralis virtus.
  \item utrum circa diversas passiones sint diversae morales virtutes.
@@ -1353,6 +1354,54 @@ eutrapelia circa delectabilia ludorum.
  があると考えられる。
 
 \end{longtable}
+
+
+\newpage
+
+\section{division of virtues}
+1st try. To be revised.
+\subsection{according to passions}
+\schema
+{\schemabox{passio}}
+{
+    {\schemabox{concupiscibilis --- TEMPERANTIA*}}
+    {
+	\schema
+	{\schemabox{irascibilis}}
+	{\schemabox{audacia -- timor ---FORTITUDO\\
+		    spes -- desperatio --- MAGNANIMITAS**\\
+		    ira --- MANSUETUDO}}
+    }
+}
+
+\vspace{2em}
+
+\subsection{according to the objects of passions}
+\schema
+{\schemabox{bonum hominis}}
+{
+    \schemabox{sensus corporis -- tactus --- TEMPERANTIA*}
+    \schema{\schemabox{interior animae\\apprehensio}}
+    {
+	\schema{\schemabox{bonum hominis\\in seipso}}
+	{
+	    \schema{\schemabox{pecunia}}{\schemabox{LIBERALITAS(con.)\\MAGNIFICENTIA(ira.)}}
+	    \schema{\schemabox{honor}}{\schemabox{PHILOTIMIA(con.)\\MAGNANIMITAS**(ira.)}}
+	}
+	\schemabox{quantum ad corpus}
+	\schema{\schemabox{in ordine ad alios}}
+	{
+	    \schema{\schemabox{serio}}{\schemabox{ut delectabiils---AMICITIA\\ut manifestum---VERITAS}}
+	    \schemabox{ludo --- EUTRAPELIA}
+	}
+    }
+}
+
+\vspace{2em}
+\noindent
+(*, ** --- duplication)
+
+
 \end{document}
 
 
