@@ -43,3 +43,12 @@ git add <file>
 git commit -m "message"
 git push
 ```
+
+2026-06-06
+
+LaTeX project structure:
+
+- template.tex contains document skeleton
+- preamble.tex contains shared package/configuration settings
+- new ST1-*.tex files should be created from template.tex
+- research notes are managed separately in Denote
