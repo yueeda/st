@@ -44,7 +44,8 @@ git commit -m "message"
 git push
 ```
 
-2026-06-06
+## Change Log
+### 2026-06-06 preamble.tex
 
 LaTeX project structure:
 
