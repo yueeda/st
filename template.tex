@@ -20,120 +20,39 @@ jafontsize=9pt,
 titlepage
 ]{jlreq}
 
-%=================================================================
-% 日本語処理
-%=================================================================
+\input{preamble}
 
-\usepackage{luatexja-fontspec}
-\usepackage{luatexja-ruby}
+%----- header -------
+\pagestyle{fancy}
+\lhead{{\itshape Summa Theologiae} X, q.XX}
+%--------------------
 
-% 古典ギリシア語(Unicode)を和文扱いしない。
-%
-% これが無いと
-%
-%   λόγος
-%   ἀλήθεια
-%
-% などが HaranoAjiMincho に送られ、
-%
-%   Missing character: There is no ό ...
-%
-% が発生する。
-%
-\ltjsetparameter{jacharrange={-2,-3}}
 
-%=================================================================
-% フォント
-%=================================================================
+\bibliographystyle{jplain}
 
-% 欧文・ギリシア語
-\setmainfont{Libertinus Serif}
+\title{{\bfseries XX Pars}\\{\Huge Summae Theologiae}\\Sancti Thomae
+Aquinatis\\{\sffamily Quaestio Septuagesimasexta}\\{\bfseries XXXXX}}
+\author{Japanese translation\\by Yoshinori {\scshape Ueeda}}
+\date{Last modified \today}
 
-% 和文
-\setmainjfont{HaranoAjiMincho}
+%%%% コピペ用
+%\rhead{a.~}
+%\begin{center}
+% {\Large {\bf }}\\
+% {\large }\\
+% {\footnotesize }\\
+% {\Large \\}
+%\end{center}
+%
+%\begin{paracol}{2}
+%
+%\switchcolumn
+%
+%\switchcolumn*
+%\end{paracol}
+%\newpage
 
-%=================================================================
-% 古典ギリシア語
-%=================================================================
+\begin{document}
 
-% Babel の古い LGR 入力
-%
-%   \textgreek{l'ogos}
-%   \textgreek{>'anjrwpoc}
-%
-% を維持するために必要。
-%
-% Unicode Greek
-%
-%   λόγος
-%   \foreignlanguage{greek}{πάντες ἄνθρωποι}
-%
-% と共存可能。
-%
-\usepackage[LGR,T1]{fontenc}
-\usepackage[polutonikogreek,english,japanese]{babel}
 
-%=================================================================
-% レイアウト
-%=================================================================
-
-\usepackage{paracol}
-\footnotelayout{m}
-
-\usepackage{longtable}
-
-%=================================================================
-% 色
-%=================================================================
-
-\usepackage{xcolor}
-
-%=================================================================
-% PDF ハイパーリンク
-%=================================================================
-
-\usepackage[
-unicode,
-bookmarks=true,
-hidelinks
-]{hyperref}
-
-% hyperref の後に読むこと。
-% 先に読むと Option clash が発生する。
-%
-\usepackage{bookmark}
-
-%=================================================================
-% ヘッダ・フッタ
-%=================================================================
-
-\usepackage{fancyhdr}
-
-%=================================================================
-% 注意事項
-%=================================================================
-%
-% 見出し中のギリシア語:
-%
-%   \section{λόγος}
-%
-% は空白になる場合がある。
-%
-% その場合:
-%
-%   \section{{\rmfamily λόγος}}
-%
-% と書く。
-%
-%
-% Babel ギリシア語:
-%
-%   \textgreek{l'ogos}
-%
-% Unicode ギリシア語:
-%
-%   \foreignlanguage{greek}{λόγος}
-%
-% の両方が利用可能。
-%
-%=================================================================
+\end{document}
