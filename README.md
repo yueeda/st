@@ -53,3 +53,7 @@ LaTeX project structure:
 - preamble.tex contains shared package/configuration settings
 - new ST1-*.tex files should be created from template.tex
 - research notes are managed separately in Denote
+
+### 2026-06-07
+- fontencを入れるとitalic, boldなどが出なくなるので、preamble.texから `\usepackage[LGR,T1]{fontenc}` を削除。
+- uplatex/ファイルの中のtextgreekをunicodeに変換(per Chappy)
