@@ -1,14 +1,13 @@
 \documentclass[paper=a4paper,fontsize=10pt,jafontsize=9pt,titlepage]{jlreq}
 \input{preamble}
 
+\setlength{\headheight}{15.3pt}
+
 %----- header -------
-\pagestyle{fancy}
 \lhead{{\itshape Summa Theologiae} I, q.77}
 %--------------------
 
-
 \bibliographystyle{jplain}
-
 
 \title{{\bfseries Prima Pars}\\{\Huge Summae Theologiae}\\Sancti Thomae Aquinatis\\{\sffamily Quaestio Septuagesimaseptima}\\{\bfseries DE HIS QUAE PERTINENT AD POTENTIAS ANIMAE IN GENERALI}}
 \author{Japanese translation\\by Yoshinori {\scshape Ueeda}}
@@ -23,27 +22,27 @@
 % {\Large \\}
 %\end{center}
 %
-%\begin{longtable}{p{21em}p{21em}}
+%\begin{paracol}{2}
 %
-%&
+%\switchcolumn
 %
-% 
-%
-%\\
-%\end{longtable}
+%\switchcolumn*
+%\end{paracol}
 %\newpage
 
+% \AtBeginDocument{
+%   \setmainfont{Libertinus Serif}
+% }
+
 \begin{document}
-
 \maketitle
-
+\tableofcontents
+\newpage
 \begin{center}
  {\Large 第七十七問\\魂の能力一般に属する事柄について}
 \end{center}
-
-
-
-\begin{longtable}{p{21em}p{21em}}
+\vspace{2em}
+\begin{paracol}{2}
  Deinde considerandum est de his quae pertinent ad potentias animae. Et primo, in generali; secundo, in speciali. Circa primum quaeruntur octo.
 
  \begin{enumerate}
@@ -57,7 +56,7 @@
   \item utrum omnes potentiae animae remaneant in ea post mortem.
  \end{enumerate}
 
- &
+ \switchcolumn
 
 次に、魂の能力に属する事柄について、考察されるべきである。第一に、一般的に、そして第二に、特殊的に。第一のことをめぐって、八つのことが問われる。
  
@@ -72,19 +71,16 @@
   \item 死後、魂のすべての能力が残存するか。
  \end{enumerate}
 
-\end{longtable}
+\end{paracol}
 \newpage 
- 
 
-\rhead{a.~1}
-\begin{center}
-{\Large {\bfseries ARTICULUS PRIMUS}}\\
-{\large UTRUM IPSA ESSENTIA ANIMAE SIT EIUS POTENTIA}\\
+\rhead{a.1}
+\section{UTRUM IPSA ESSENTIA ANIMAE SIT EIUS POTENTIA}
+\noindent {\large 魂の本質それ自体がその能力か}\\
+\vspace{1em}
 {\footnotesize Supra, q.54, a.3; I {\itshape Sent.}, d.3, a.4, a.2; {\itshape De Spirit.~Creat.}, a.11; {\itshape Quodl.} X, q.3, a.1; Qu.~{\itshape de Anima}, a.12.}\\
-{\Large 第一項\\魂の本質それ自体がその能力か}
-\end{center}
 
-\begin{longtable}{p{21em}p{21em}}
+\begin{paracol}{2}[\subsection{arg.1}]
 
 {\scshape Ad primum sic proceditur}. Videtur quod ipsa essentia animae
 sit eius potentia. Dicit enim Augustinus, in IX {\itshape de Trin}.,
@@ -93,7 +89,7 @@ vel, ut idem dicam, essentialiter}. --- Et in X dicit quod {\itshape
 memoria, intelligentia et voluntas sunt una vita, una mens, una
 essentia}.
 
-&
+\switchcolumn
 
  第一項の問題へ、議論は以下のように進められる。魂の本質それ自体がその
  能力だと思われる。理由は以下の通り。アウグスティヌスは『三位一体論』
@@ -101,50 +97,44 @@ essentia}.
  にある」と言う。また第10巻では「記憶と知性と意志は一つの生命であり、
  一つの精神であり、一つの本質である」と言っている。
 
-
-\\
-
+\switchcolumn*[\subsection{arg.2}]
 2. {\scshape Praeterea}, anima est nobilior quam materia prima. Sed
 materia prima est sua potentia. Ergo multo magis anima.
 
-&
+\switchcolumn
 
  さらに、魂は第一質料より高貴である。しかるに第一質料はその能力（可能
  態）である。ゆえに、ましてや魂もまたそうである。
 
-\\
-
-
+\switchcolumn*[\subsection{arg.3}]
 3. {\scshape Praeterea}, forma substantialis est simplicior quam
 accidentalis, cuius signum est, quod forma substantialis non
 intenditur vel remittitur, sed in indivisibili consistit. Forma autem
 accidentalis est ipsa sua virtus. Ergo multo magis forma
 substantialis, quae est anima.
 
-&
+\switchcolumn
 
 さらに、実体形相は附帯形相よりも単純である。そのしるしに、実体形相は強
 められたり弱められたりせず、個体において存立している。しかし附帯形相は、
 自らのちからそれ自体である。ゆえに、ましてや魂であるところの実体形相も
 またそうである。
 
-\\
+\switchcolumn*[\subsection{arg.4}]
 
 4. {\scshape Praeterea}, potentia sensitiva est qua sentimus, et
 potentia intellectiva qua intelligimus. Sed id quo primo sentimus et
 intelligimus est anima, secundum philosophum, in II {\itshape de
 Anima}. Ergo anima est suae potentiae.
 
-&
+\switchcolumn
 
 さらに、感覚能力は、私たちがそれによって感覚するところのものであり、知
 性能力は、私たちがそれによって知性認識するところのものである。しかるに、
 『デ・アニマ』第2巻の哲学者によれば、それによって第一に感覚し知性認識
 するところのものは魂である。ゆえに、魂は、自らの能力である。
 
-\\
-
-
+\switchcolumn*[\subsection{arg.5}]
 5. {\scshape Praeterea}, omne quod non est de essentia rei, est
 accidens. Si ergo potentia animae est praeter essentiam eius, sequitur
 quod sit accidens. Quod est contra Augustinum, in IX {\itshape de
@@ -153,7 +143,7 @@ subiecto, ut color aut figura in corpore, aut ulla alia qualitas aut
 quantitas, quidquid enim tale est, non excedit subiectum in quo est;
 mens autem potest etiam alia amare et cognoscere}.
 
-&
+\switchcolumn
 
 さらに、すべて事物の本質に属さないものは、附帯性である。ゆえに、もし魂
 の能力が魂の本質の外にあるならば、それは附帯性であることが帰結する。こ
@@ -164,33 +154,29 @@ mens autem potest etiam alia amare et cognoscere}.
 を越えないからである。しかるに精神は、他の者どもをも愛し認識することが
 できる」。
 
-\\
 
 
-
+\switchcolumn*[\subsection{arg.6}]
 6. {\scshape Praeterea}, forma simplex subiectum esse non
 potest. Anima autem est forma simplex, cum non sit composita ex
 materia et forma, ut supra dictum est. Non ergo potentia animae potest
 esse in ipsa sicut in subiecto.
 
-&
+\switchcolumn
 
  さらに、単純形相は基体であることができない。しかるに魂は、上述のよう
  に、質料と形相から複合されていないので、単純形相である。ゆえに魂の能
  力は、基体としての魂においてあることはできない。
 
 
-\\
-
-
-
+\switchcolumn*[\subsection{arg.7}]
 7. {\scshape Praeterea}, accidens non est principium substantialis
 differentiae. Sed sensibile et rationale sunt substantiales
 differentiae, et sumuntur a sensu et ratione, quae sunt potentiae
 animae. Ergo potentiae animae non sunt accidentia. Et ita videtur quod
 potentia animae sit eius essentia.
 
-&
+\switchcolumn
 
  さらに、附帯性は、実体的な種差の根源ではない。しかるに、可感的である
  ことと理性的であることは、実体的な種差であるが、これらは魂の能力であ
@@ -198,55 +184,45 @@ potentia animae sit eius essentia.
  魂の能力はその本質であると思われる。
 
 
-\\
-
-
-
+\switchcolumn*[\subsection{s.c.}]
 {\scshape Sed contra est} quod Dionysius dicit, XI cap.~{\itshape
 Caelest.~Hier}., quod caelestes spiritus dividuntur in essentiam,
 virtutem et operationem. Multo igitur magis in anima aliud est
 essentia, et aliud virtus sive potentia.
 
-&
+\switchcolumn
 
  しかし反対に、ディオニュシウスは『天上階級論』第11章で、天の霊たちは
  本質、ちから、働きへと分割されると言う。ゆえに、ましてや、魂において、
  本質は、ちからないし能力と別である。
 
 
-\\
-
-
+\switchcolumn*[\subsection{Corpus}]
 
 {\scshape Respondeo dicendum} quod impossibile est dicere quod
 essentia animae sit eius potentia; licet hoc quidam posuerint. Et hoc
  dupliciter ostenditur, quantum ad praesens.
 
-
-&
+\switchcolumn
 
  解答する。以下のように言われるべきである。ある人々はそう言ったのだが、
  魂の本質が、それの能力であると語ることは不可能である。そして現在の問
  題にかんする限り、これは二通りに明示される。
 
-\\
-
+\switchcolumn*
 
  Primo quia, cum potentia et actus dividant ens et quodlibet genus
 entis, oportet quod ad idem genus referatur potentia et actus. Et
 ideo, si actus non est in genere substantiae, potentia quae dicitur ad
 illum actum, non potest esse in genere substantiae.
 
-&
+\switchcolumn
 
- 第一に、可能態(potentia)と現実態は(actus)有と、何であれ有の類を分割す
- るので、可能態と現実態は、同一の類に還元されなければならない。ゆえに、
- もし現実態が実体の類にないならば、その現実態に対して語られる可能態も
- また、実体の類の中にはありえない。
+第一に、可能態(potentia)と現実態(actus)は、何であれ有の類を分割するので、可能態と
+現実態は、有と同一の類に還元されなければならない。ゆえに、もし現実態が実体の類に
+ないならば、その現実態に対して語られる可能態もまた、実体の類の中にはありえない。
 
-
-\\
-
+\switchcolumn*
 
  Operatio autem animae non est in genere substantiae; sed in solo Deo,
 cuius operatio est eius substantia. Unde Dei potentia, quae est
@@ -254,9 +230,7 @@ operationis principium, est ipsa Dei essentia. Quod non potest esse
 verum neque in anima, neque in aliqua creatura; ut supra etiam de
 Angelo dictum est.
 
-
-
-&
+\switchcolumn
 
 しかるに魂の働きは実体の類の中にはない。そうであるのは、その働きがその
 実体である神においてだけである。このことから、働きの根源である神の能力
@@ -264,7 +238,7 @@ Angelo dictum est.
 おいても真でありえない。これは以前に天使についても語られた。
 
 
-\\
+\switchcolumn*
 
 
 Secundo, hoc etiam impossibile apparet in anima.  Nam anima secundum
@@ -273,7 +247,7 @@ immediatum operationis principium, semper habens animam actu haberet
 opera vitae; sicut semper habens animam actu est vivum.
 
 
-&
+\switchcolumn
 
  第二に、このことは魂においては不可能であるように見える。理由は以下の
  通り。魂は、自らの本質に即して現実態・作用(actus)である。ゆえに、もし
@@ -282,7 +256,7 @@ opera vitae; sicut semper habens animam actu est vivum.
  実態において生きるものであるように。
 
 
-\\
+\switchcolumn*
 
 
  Non enim, inquantum est forma, est actus ordinatus ad ulteriorem
@@ -290,7 +264,7 @@ actum, sed est ultimus terminus generationis. Unde quod sit in
 potentia adhuc ad alium actum, hoc non competit ei secundum suam
 essentiam, inquantum est forma; sed secundum suam potentiam.
 
-&
+\switchcolumn
 
 
  実際、魂は、それが形相である限りにおいては、究極の現実態へ秩序付けら
@@ -298,19 +272,19 @@ essentiam, inquantum est forma; sed secundum suam potentiam.
  て、他の現実態に対して可能態にあることは、自らの本質に即して、形相で
  あるかぎりにおける魂に適合するのではなく、自らの能力に即してである。
 
-\\
+\switchcolumn*
 
  Et sic ipsa anima, secundum quod subest suae potentiae, dicitur actus
 primus, ordinatus ad actum secundum. Invenitur autem habens animam non
 semper esse in actu operum vitae.
 
-&
+\switchcolumn
 
 このように、魂自体は、自らの能力のもとにあるかぎりにおいて、第一現実態
 と言われ、第二現実態へと秩序付けられている。ところが、魂を持つものが、
 常に、生命の業を現実態において持つわけではない。
 
-\\
+\switchcolumn*
 
 Unde etiam in definitione animae dicitur quod est {\itshape actus
 corporis potentia vitam habentis}, quae tamen potentia {\itshape non
@@ -318,25 +292,21 @@ abiicit animam}. Relinquitur ergo quod essentia animae non est eius
 potentia. Nihil enim est in potentia secundum actum, inquantum est
 actus.
 
-&
+\switchcolumn
 
 したがって、魂の定義においても、「可能的に生命を持つ身体の現実態」と言
 われるが、この可能態は「魂を捨てない」と言われる。ゆえに、魂の本質はそ
 の能力ではないことが残される。なぜなら、何ものも、現実態であるかぎりに
 おいて、現実態に即して可能態にあるものはないからである。
- 
 
-\\
-
-
-
+\switchcolumn*[\subsection{ad 1}]
 {\scshape Ad primum ergo dicendum} quod Augustinus loquitur de mente
 secundum quod noscit se et amat se. Sic ergo notitia et amor,
 inquantum referuntur ad ipsam ut cognitam et amatam, substantialiter
 vel essentialiter sunt in anima, quia ipsa substantia vel essentia
  animae cognoscitur et amatur.
 
-&
+\switchcolumn
 
  第一異論に対しては、それゆえ、以下のように言われるべきである。アウグ
  スティヌスは、自らを知り、自らを愛する限りにおける精神について語って
@@ -345,8 +315,8 @@ vel essentialiter sunt in anima, quia ipsa substantia vel essentia
  なしかたである。というのも、魂の実体や本質自体が知られ愛されるからで
  ある。
 
-\\
 
+\switchcolumn*
 
  Et similiter intelligendum est quod alibi dicit, quod sunt {\itshape
 una vita, una mens, una essentia}. Vel, sicut quidam dicunt, haec
@@ -354,14 +324,14 @@ locutio verificatur secundum modum quo totum potestativum praedicatur
 de suis partibus, quod medium est inter totum universale et totum
 integrale.
 
-&
+\switchcolumn
 
 また、ある箇所で「一つの生命、一つの精神、一つの本質」と言われることも、
 同様に理解されるべきである。あるいは、ある人々が言うように、この表現は、
 力の全体が自らの部分に述語付けられるしかたに即して真とされる。これは普
 遍的全体と統合的全体の間にある。
 
-\\
+\switchcolumn*
 
  Totum enim universale adest cuilibet parti secundum totam suam
 essentiam et virtutem, ut animal homini et equo, et ideo proprie de
@@ -369,31 +339,27 @@ singulis partibus praedicatur. Totum vero integrale non est in
 qualibet parte, neque secundum totam essentiam, neque secundum totam
 virtutem.
 
-&
+\switchcolumn
 
  すなわち普遍的全体は、自らの本質とちからの全体に即して、どの部分のも
  とにもある。たとえば、動物が、人間と馬に対してそうであるように。それ
  ゆえ、固有の意味で、個々の部分について述語付けられる。他方で、統合的
  全体は、本質全体に即しても、ちから全体に即しても、どの部分の中にもな
  い。
-
-
-\\
-
+\switchcolumn*
 
  Et ideo nullo modo de singulis partibus praedicatur; sed aliquo modo,
 licet improprie, praedicatur de omnibus simul, ut si dicamus quod
 paries, tectum et fundamentum sunt domus. 
 
-&
+\switchcolumn
 
  それゆえ、統合的全体は、個々の部分について決して述語付けられない。し
  かし、あるしかたで、固有にではないにしても、すべてのものについて同時
  に述語付けられる。たとえば、私たちが、壁と屋根と基礎が家である、と言
  う場合のように。
 
-
-\\
+ \switchcolumn*
 
 Totum vero potentiale adest singulis partibus secundum totam suam
 essentiam, sed non secundum totam virtutem.  Et ideo quodammodo potest
@@ -401,7 +367,7 @@ praedicari de qualibet parte; sed non ita proprie sicut totum
 universale. Et per hunc modum Augustinus dicit quod memoria,
 intelligentia et voluntas sunt una animae essentia.
 
-&
+\switchcolumn
 
  これに対して、能力的全体は、個々の部分に、自らの全本質に即してあるが、
  ちから全体に即してはない。ゆえに、どの部分についても、ある意味で述語
@@ -409,32 +375,26 @@ intelligentia et voluntas sunt una animae essentia.
  てこのしかたで、アウグスティヌスは「記憶、知性、意志は、魂の一つの本
  質である」と言っている。
 
-
-\\
-
-
-{\scshape Ad secundum dicendum} quod actus ad quem est in potentia
+ \switchcolumn*[\subsection{ad 2}]
+\textsc{Ad secundum dicendum} quod actus ad quem est in potentia
 materia prima, est substantialis forma. Et ideo potentia materiae non
 est aliud quam eius essentia.
 
-&
+\switchcolumn
 
  第二異論に対しては、以下のように言われるべきである。第一質料が、それ
  に対して可能態にあるところの現実態は、実体形相である。ゆえに質料の可
  能態は、それの本質に他ならない。
 
-\\
+ \switchcolumn*[\subsection{ad 3}]
+ \textsc{Ad tertium dicendum} quod actio est
+ compositi, sicut et esse, existentis enim est agere. Compositum autem per
+ formam substantialem habet esse substantialiter; per virtutem autem quae
+ consequitur formam substantialem, operatur. Unde sic se habet forma
+ accidentalis activa ad formam substantialem agentis (ut calor ad formam ignis),
+ sicut se habet potentia animae ad animam.
 
-
-
-{\scshape Ad tertium dicendum} quod actio est compositi, sicut et
-esse, existentis enim est agere. Compositum autem per formam
-substantialem habet esse substantialiter; per virtutem autem quae
-consequitur formam substantialem, operatur. Unde sic se habet forma
-accidentalis activa ad formam substantialem agentis (ut calor ad
-formam ignis), sicut se habet potentia animae ad animam.
-
-&
+\switchcolumn
 
  第三異論に対しては、以下のように言われるべきである。作用は、存在もそ
  うであるように、複合体に属する。作用することは、存在するものに属する
@@ -444,10 +404,7 @@ formam ignis), sicut se habet potentia animae ad animam.
  な附帯形相が、作用者の実体形相に対して関係するようにして、魂の能力は
  魂に関係する。
 
-\\
-
-
-
+ \switchcolumn*[\subsection{ad 4}]
 {\scshape Ad quartum dicendum} quod hoc ipsum quod forma accidentalis
 est actionis principium, habet a forma substantiali. Et ideo forma
 substantialis est primum actionis principium, sed non proximum. Et
@@ -455,7 +412,7 @@ secundum hoc philosophus dicit quod id quo intelligimus et sentimus,
 est anima.
 
 
-&
+\switchcolumn
 
  第四異論に対しては、以下のように言われるべきである。附帯形相が作用の
  根源であるということそれ自体を、実体形相によってもつ。ゆえに、実体形
@@ -463,9 +420,7 @@ est anima.
  に即して、哲学者は、私たちがそれによって知性認識し、感覚するところの
  ものは魂である、と述べている。
 
-\\
-
-
+ \switchcolumn*[\subsection{ad 5}]
 {\scshape Ad quintum dicendum} quod, si accidens accipiatur secundum
 quod dividitur contra substantiam, sic nihil potest esse medium inter
 substantiam et accidens, quia dividuntur secundum affirmationem et
@@ -473,7 +428,7 @@ negationem, scilicet secundum esse in subiecto et non esse in
 subiecto. Et hoc modo, cum potentia animae non sit eius essentia,
 oportet quod sit accidens, et est in secunda specie qualitatis.
 
-&
+\switchcolumn
 
 第五異論に対しては、以下のように言われるべきである。附帯性が、それが実
 体に対して分割される限りにおいて理解されるならば、その場合には、実体と
@@ -482,9 +437,7 @@ oportet quod sit accidens, et est in secunda specie qualitatis.
 されるからである。そしてこの意味では、魂の能力は魂の本質でないので、そ
 れは附帯性でなければならず、性質の第二の種の中にある。
 
-\\
-
-
+\switchcolumn*
 
  Si vero accipiatur accidens secundum quod ponitur unum quinque
 universalium, sic aliquid est medium inter substantiam et
@@ -492,7 +445,7 @@ accidens. Quia ad substantiam pertinet quidquid est essentiale rei,
 non autem quidquid est extra essentiam, potest sic dici accidens, sed
 solum id quod non causatur ex principiis essentialibus speciei.
 
-&
+\switchcolumn
 
 
  他方、附帯性が五つの普遍の一つとされるかぎりで理解されるならば、その
@@ -501,24 +454,21 @@ solum id quod non causatur ex principiis essentialibus speciei.
  で附帯性とは言われ得ず、ただ種の本質的根源から原因されないものだけが
  附帯性と言われるからである。
 
-\\
-
+\switchcolumn*
 
  Proprium enim non est de essentia rei, sed ex principiis
 essentialibus speciei causatur, unde medium est inter essentiam et
 accidens sic dictum. Et hoc modo potentiae animae possunt dici mediae
 inter substantiam et accidens, quasi proprietates animae naturales.
 
-&
+\switchcolumn
 
 たとえば、固有性は事物の本質に属さないが、種の本質的根源から原因される。
 このことから、この意味で言われる本質と附帯性の中間にある。この意味で、
 魂の能力は、あたかも魂の本性的な固有性であるかのようにして、実体と附帯
 性の中間にあると言われうる。
- 
 
-\\
-
+\switchcolumn*
 
  Quod autem Augustinus dicit, quod notitia et amor non sunt
 in anima sicut accidentia in subiecto, intelligitur secundum modum
@@ -528,7 +478,7 @@ cognitam. Et hoc modo procedit sua probatio, quia si amor esset in
 anima amata sicut in subiecto, sequeretur quod accidens transcenderet
 suum subiectum; cum etiam alia sint amata per animam.
 
-&
+\switchcolumn
 
  さらに、アウグスティヌスが、知と愛は、附帯性が基体の中にあるように、
  魂の中にあるのではない、と言うことは、愛するものや知るものとしての魂
@@ -539,15 +489,15 @@ suum subiectum; cum etiam alia sint amata per animam.
  のものもまた魂によって愛されるものだから。
 
 
-\\
 
+ \switchcolumn*[\subsection{ad 6}]
 {\scshape Ad sextum dicendum} quod anima, licet non sit composita ex
 materia et forma, habet tamen aliquid de potentialitate admixtum ut
 supra dictum est. Et ideo potest esse subiectum accidentis. Propositio
 autem inducta locum habet in Deo, qui est actus purus, in qua materia
 Boetius eam introducit.
 
-&
+\switchcolumn
 
 
  第六異論に対しては、以下のように言われるべきである。魂は、質料と形相
@@ -556,17 +506,14 @@ Boetius eam introducit.
  純粋現実態である神においては成立する。ボエティウスは、この問題におい
  て、この命題を導入している。
 
-\\
-
-
-
+ \switchcolumn*[\subsection{ad 7}]
 {\scshape Ad septimum dicendum} quod rationale et sensibile, prout
 sunt differentiae, non sumuntur a potentiis sensus et rationis; sed ab
 ipsa anima sensitiva et rationali. Quia tamen formae substantiales,
 quae secundum se sunt nobis ignotae, innotescunt per accidentia; nihil
 prohibet interdum accidentia loco differentiarum substantialium poni.
 
-&
+\switchcolumn
 
  第七異論に対しては、以下のように言われるべきである。理性的であること、
  感覚的であることは、それらが種差であるかぎりにおいては、感覚や理性と
@@ -576,50 +523,48 @@ prohibet interdum accidentia loco differentiarum substantialium poni.
  ことは、なんら差し支えない。
 
 
-\end{longtable}
+\end{paracol}
+
 \newpage
 
-\rhead{a.~2}
-\begin{center}
-{\Large {\bfseries ARTICULUS SECUNDUS}}\\
-{\large UTRUM SINT PLURES POTENTIAE ANIMAE}\\
-{\Large 第二項\\複数の能力が魂にはあるか}
-\end{center}
+\rhead{a.2}
+\section{UTRUM SINT PLURES POTENTIAE ANIMAE}
+\vspace{1em}
+\noindent {\LARGE \textbf{複数の能力が魂にはあるか}}\\
+\vspace{1em}
 
-\begin{longtable}{p{21em}p{21em}}
+\begin{paracol}{2}[\subsection{arg.1}]
  {\scshape Ad secundum sic proceditur}. Videtur quod non sint plures
  potentiae animae. Anima enim intellectiva maxime ad divinam
  similitudinem accedit. Sed in Deo est una et simplex potentia. Ergo
  et in anima intellectiva.
 
- &
+ \switchcolumn
 
  第二項の問題へは以下のように進められる。魂に複数の能力はないと思われ
  る。理由は以下の通り。知性的魂は最大限に神の類似へ近づいている。しか
  るに神の中にあるのは一つの単純な能力である。ゆえに知性的魂においても
  同じである。
 
-\\
+\switchcolumn*[\subsection{arg.2}]
 
 2. {\scshape Praeterea}, quanto virtus est superior, tanto est magis
 unita. Sed anima intellectiva excedit omnes alias formas in
 virtute. Ergo maxime debet habere unam virtutem seu potentiam.
 
- &
+ \switchcolumn
 
 さらに、ちからが上位であるほど、それはより合一されている。しかるに知性
 的魂は、ちからにおいて、他のすべての形相を越えている。ゆえに、最大限に、
 一つのちからないし能力をもつはずである。
 
-\\
-
-
+\switchcolumn*[\subsection{arg.3}]
 3. {\scshape Praeterea}, operari est existentis in actu. Sed per
 eandem essentiam animae homo habet esse secundum diversos gradus
 perfectionis, ut supra habitum est. Ergo per eandem potentiam animae
 operatur diversas operationes diversorum graduum.
 
- &
+ \switchcolumn
 
  さらに、働くことは、現実に存在するものに属する。しかるに、上述のよう
  に、人間は、魂の同一の本質によって、完全性のさまざまな段階に即して存
@@ -627,19 +572,16 @@ operatur diversas operationes diversorum graduum.
  ざまな働きを行う。
 
 
-\\
-
-
+\switchcolumn*[\subsection{s.c.}]
  {\scshape Sed contra est} quod philosophus, in II de anima ponit
  plures animae potentias.
 
- &
+ \switchcolumn
 
 しかし反対に、哲学者は『デ・アニマ』第2巻で、魂の複数の能力を措定して
 いる。
 
-\\
-
+\switchcolumn*[\subsection{Corpus}]
 
  {\scshape Respondeo dicendum} quod necesse est ponere plures animae
  potentias. Ad cuius evidentiam, considerandum est quod, sicut
@@ -652,7 +594,7 @@ operatur diversas operationes diversorum graduum.
  bonitatem.
 
 
- &
+ \switchcolumn
 
 解答する。以下のように言われるべきである。魂の複数の能力を措定すること
 は必要である。これを明らかにするためには、以下のことが考察されるべきで
@@ -663,7 +605,7 @@ operatur diversas operationes diversorum graduum.
 善性に到達するものは、それらより上位のものである。他方、最高に完全なも
 のが、運動なしに完全な善性を所有するものにおいて見出される。
 
-\\
+ \switchcolumn*
 
 
  Sicut infime est ad sanitatem dispositus qui non potest
@@ -672,7 +614,7 @@ operatur diversas operationes diversorum graduum.
  sanitatem, sed remediis multis; et adhuc melius, qui remediis paucis;
  optime autem, qui absque remedio perfectam sanitatem habet.
  
- &
+ \switchcolumn
 
  たとえば、完全な健康を獲得することができず、少しの薬で何らかの少しの
  健康を獲得する人は、健康に対して最低の態勢にあり、完全な健康を獲得で
@@ -681,7 +623,7 @@ operatur diversas operationes diversorum graduum.
  は最善である。
 
 
-\\
+ \switchcolumn*
 
 Dicendum est ergo quod res quae sunt infra hominem, quaedam
  particularia bona consequuntur, et ideo quasdam paucas et
@@ -689,7 +631,7 @@ Dicendum est ergo quod res quae sunt infra hominem, quaedam
  consequi universalem et perfectam bonitatem, quia potest adipisci
  beatitudinem.
  
- &
+ \switchcolumn
 
  それゆえ、以下のように言われるべきである。人間より下の事物は、ある個
  別的な善を獲得し、それゆえ何らかの少なく限定された働きやちからをもつ。
@@ -697,7 +639,7 @@ Dicendum est ergo quod res quae sunt infra hominem, quaedam
  至福に到達できるからである。
 
 
-\\
+ \switchcolumn*
 
  Est tamen in ultimo gradu, secundum naturam, eorum quibus competit
  beatitudo, et ideo multis et diversis operationibus et virtutibus
@@ -705,7 +647,7 @@ Dicendum est ergo quod res quae sunt infra hominem, quaedam
  competit. In Deo vero non est aliqua potentia vel actio, praeter eius
  essentiam.
  
- &
+ \switchcolumn
 
  しかし、人間は、至福が適合するものどもの中で、本性において最下位にい
  るので、人間の魂は多くのさまざまなな働きとちからを必要とする。他方、
@@ -713,80 +655,77 @@ Dicendum est ergo quod res quae sunt infra hominem, quaedam
  質以外に、何の能力も作用もない。
 
 
-\\
+ \switchcolumn*
 
  Est et alia ratio quare anima humana abundat diversitate potentiarum,
  videlicet quia est in confinio spiritualium et corporalium
  creaturarum, et ideo concurrunt in ipsa virtutes utrarumque
  creaturarum.
 
- &
+ \switchcolumn
 
  なぜ人間の魂が能力の多様性にあふれているかを説明する他の理由がある。
  すなわち、人間の魂は、霊的被造物と物体的被造物の境界にあるので、魂に
  おいて、どちらの被造物のちからも集まるからである。
 
  
-
-\\
-
+\switchcolumn*[\subsection{ad 1}]
  {\scshape Ad primum ergo dicendum} quod in hoc ipso magis ad
  similitudinem Dei accedit anima intellectiva quam creaturae
  inferiores, quod perfectam bonitatem consequi potest; licet per multa
  et diversa; in quo deficit a superioribus.
 
- &
+ \switchcolumn
 
  第一異論に対しては、それゆえ、以下のように言われるべきである。知性的
  魂は、完全な善性を獲得できるという点で、下位の被造物よりも神の類似に
  近づいている。ただし、多くの多様なものを通してであり、この点において、
  上位のものには及ばない。
 
-\\
-
-
+\switchcolumn*[\subsection{ad 2}]
  {\scshape Ad secundum dicendum} quod virtus unita est superior, si ad
  aequalia se extendat. Sed virtus multiplicata est superior, si plura
  ei subiiciantur.
 
- &
+ \switchcolumn
 
  第二異論に対しては、以下のように言われるべきである。合一されたちから
  が上位であるのは、等しいものに及ぶ場合である。もし、複数のものがそれ
  に従属するならば、多数化されたちからの方が上位である。
  
-\\
-
+\switchcolumn*[\subsection{ad 3}]
  {\scshape Ad tertium dicendum} quod unius rei est unum esse
  substantiale, sed possunt esse operationes plures. Et ideo est una
  essentia animae, sed potentiae plures.
 
- &
+ \switchcolumn
 
  第三異論に対しては、以下のように言われるべきである。一つの事物には、
  一つの実体的な存在が属するが、複数の働きが属しうる。ゆえに、魂の本質
  は一つだが、能力は複数である。
 
 
-\end{longtable}
+\end{paracol}
+
 \newpage
  
-\rhead{a.~3}
-\begin{center}
-{\Large {\bfseries ARTICULUS TERTIUS}}\\
-{\large UTRUM POTENTIAE DISTINGUANTUR\\PER ACTUS ET OBIECTA}\\
+\rhead{a.3}
+\section {UTRUM POTENTIAE DISTINGUANTUR PER ACTUS ET OBIECTA}
 {\footnotesize Qu.~{\itshape de Anima}, a.13; lib.~II {\itshape de Anima}, lect.~6.}\\
-{\Large 第三項\\能力は作用と対象によって区別されるか}
-\end{center}
 
-\begin{longtable}{p{21em}p{21em}}
+\vspace{2em}
+\textbf{{\Large 第三項　能力は作用と対象によって区別されるか}}
+\vspace{2em}
+
+
+\begin{paracol}{2}[\subsection{arg.1}]
  {\scshape Ad tertium sic proceditur}. Videtur quod potentiae non
  distinguantur per actus et obiecta. Nihil enim determinatur ad
  speciem per illud quod posterius, vel extrinsecum est. Actus autem
  est posterior potentia; obiectum autem est extrinsecum. Ergo per ea
  potentiae non distinguuntur secundum speciem.
  
-&
+\switchcolumn
 
  第三項の問題へ、議論は以下のように進められる。能力は作用と対象によっ
  て区別されるのではないと思われる。理由は以下の通り。何ものも、より後
@@ -794,11 +733,7 @@ Dicendum est ergo quod res quae sunt infra hominem, quaedam
  用は能力より後のものであり、対象は外的なものである。ゆえにそれらによっ
  て能力が種において区別されることはない。
 
-
-\\
-
-
-
+\switchcolumn*[\subsection{arg.2}]
 2. {\scshape Praeterea}, contraria sunt quae maxime differunt. Si
 igitur potentiae distinguerentur penes obiecta, sequeretur quod
 contrariorum non esset eadem potentia. Quod patet esse falsum fere in
@@ -806,7 +741,7 @@ omnibus, nam potentia visiva eadem est albi et nigri, et gustus idem
 est dulcis et amari.
 
  
-&
+\switchcolumn
 
 さらに、対立するものとは最大限に異なるものである。ゆえに、もし能力が対
 象に即して区別されるならば、同一の能力は反対のものに関わらなかったであ
@@ -814,17 +749,14 @@ est dulcis et amari.
 ぜなら、同一の見る能力が使徒ろくろに関わり、同一の味覚が甘いものと苦い
 ものに関わるからである。
 
-\\
-
-
-
+\switchcolumn*[\subsection{arg.3}]
 3. {\scshape Praeterea}, remota causa, removetur effectus. Si igitur
 potentiarum differentia esset ex differentia obiectorum, idem obiectum
 non pertineret ad diversas potentias. Quod patet esse falsum, nam idem
 est quod potentia cognoscitiva cognoscit, et appetitiva appetit.
  
  
-&
+\switchcolumn
 
 さらに、原因が取り除かれると、結果もなくなる。ゆえに、もし能力の差異が
 対象の差異に基づいてあるならば、同一の対象がさまざまな能力に属すること
@@ -832,8 +764,7 @@ est quod potentia cognoscitiva cognoscit, et appetitiva appetit.
 能力が認識し、欲求能力が欲求するのは同一のものだからである。
 
 
-\\
-
+\switchcolumn*[\subsection{arg.4}]
 
 4. {\scshape Praeterea}, id quod per se est causa alicuius, in omnibus
 causat illud. Sed quaedam obiecta diversa, quae pertinent ad diversas
@@ -843,7 +774,7 @@ tamen pertinent ad unam potentiam sensus communis. Non ergo potentiae
 distinguuntur secundum differentiam obiectorum.
 
  
-&
+\switchcolumn
 
 さらに、自体的に何かの原因であるものは、すべてのものにおいて、それを原
 因する。しかるに、さまざまな能力に属するさまざまな対象が、さらに一つの
@@ -851,15 +782,15 @@ distinguuntur secundum differentiam obiectorum.
 と聴覚に属するが、しかし共通感覚という一つの能力にも属する。ゆえに能力
 は対象の差異に即して区別されるのではない。
 
-\\
 
+\switchcolumn*[\subsection{s.c.}]
  {\scshape Sed contra}, posteriora distinguuntur secundum priora. Sed
  philosophus dicit II {\itshape de Anima}, quod {\itshape priores
  potentiis actus et operationes secundum rationem sunt; et adhuc his
  priora sunt opposita, sive obiecta}. Ergo potentiae distinguuntur
  secundum actus et obiecta.
  
-&
+\switchcolumn
 
  しかし反対に、後のものは先のものにしたがって区別される。しかるに哲学
  者が『デ・アニマ』第2巻で「作用と働きは、その性格に即しては能力よりも
@@ -867,14 +798,14 @@ distinguuntur secundum differentiam obiectorum.
  言う。ゆえに能力は、作用と対象に即して区別される。
 
 
-\\
 
+\switchcolumn*[\subsection{Corpus}]
  {\scshape Respondeo dicendum} quod potentia, secundum illud quod est
  potentia, ordinatur ad actum. Unde oportet rationem potentiae accipi
  ex actu ad quem ordinatur, et per consequens oportet quod ratio
  potentiae diversificetur, ut diversificatur ratio actus.
 
-&
+\switchcolumn
 
 解答する。以下のように言われるべきである。能力・可能態(potentia)は、そ
 れが能力である限りにおいて、作用・現実態(actus)に秩序付けられている。
@@ -882,7 +813,7 @@ distinguuntur secundum differentiam obiectorum.
 け取られなければならない。そして結果的に、能力の性格は、作用の性格が多
 様化されるようにして多様化されなければならない。
 
-\\
+\switchcolumn*
 
 
  Ratio autem actus diversificatur secundum diversam rationem
@@ -891,7 +822,7 @@ distinguuntur secundum differentiam obiectorum.
  sicut principium et causa movens, color enim inquantum movet visum,
  est principium visionis.
  
-&
+\switchcolumn
 
  ところで、作用の性格は、対象の多様な性格に即して多様化される。その理
  由は以下の通りである。すべての作用は能動的能力か受動的能力かのいずれ
@@ -899,19 +830,19 @@ distinguuntur secundum differentiam obiectorum.
  として関係する。たとえば色は視覚を動かす限りにおいて、視覚の根源であ
  る。
 
-\\
+\switchcolumn*
 
  Ad actum autem potentiae activae comparatur obiectum ut terminus et
  finis, sicut augmentativae virtutis obiectum est quantum perfectum,
  quod est finis augmenti. 
  
  
-&
+\switchcolumn
 
 他方で、対象は能動的能力の作用に対して、終極や目的として関係する。たと
 えば、成長能力の対象は完成された量であり、これは成長の目的である。
 
-\\
+\switchcolumn*
 
 Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  ex fine seu termino, differt enim calefactio ab infrigidatione,
@@ -919,9 +850,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  autem a frigido ad frigidum procedit. Unde necesse est quod potentiae
  diversificentur secundum actus et obiecta.
 
-
-
- &
+ \switchcolumn
 
  そしてこれら二つのものから、すなわち根源から、または目的ないし終極か
  ら、作用は種を受け取る。たとえば加熱作用が冷却作用と異なるのは、前者
@@ -929,7 +858,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  いものへと出ていくことに即してである。このことから、能力が、作用と対
  象に即して多様化されることが必要である。
 
- \\
+ \switchcolumn*
 
   Sed tamen considerandum est quod ea quae sunt per accidens, non
  diversificant speciem. Quia enim coloratum accidit animali, non
@@ -939,7 +868,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  quandoque sine ratione. Unde rationale et irrationale sunt
  differentiae divisivae animalis, diversas eius species constituentes.
  
-&
+\switchcolumn
 
 しかし、附帯的であるものは種を多様化しないことが考えられるべきである。
 というのも、たとえば、色づいていることが、動物に附帯するが、動物の種は
@@ -950,7 +879,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
 動物の多様な種を構成する。
 
 
-\\
+\switchcolumn*
 
  Sic igitur non quaecumque diversitas obiectorum diversificat
  potentias animae; sed differentia eius ad quod per se potentia
@@ -959,7 +888,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  potentia sensitiva est coloris, scilicet visus, et alia soni,
  scilicet auditus.
  
-&
+\switchcolumn
 
 ゆえに、このように、どんな対象の差異も魂の能力を多様化するというわけで
 はなく、そうするのは、能力が自体的に関係するものの差異である。たとえば、
@@ -967,22 +896,22 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
 のようなものに多様化されるので、色を感覚する能力、すなわち視覚と、音を
 感覚する能力、すなわち聴覚は、異なる能力である。
 
-\\
+\switchcolumn*
 
  Sed passibili qualitati, ut colorato accidit esse musicum vel
  grammaticum, vel magnum et parvum, aut hominem vel lapidem. Et ideo
  penes huiusmodi differentias potentiae animae non distinguuntur.
 
  
-&
+\switchcolumn
 
 しかし、たとえば色づいたものという受動的性質には、音楽的であることや、
 文法的であること、あるいは大きいことや小さいこと、または人間であること
 や石ころであることが附帯する。ゆえに、これらの差異に即しては、魂の能力
  は区別されない。
  
-\\
 
+\switchcolumn*[\subsection{ad 1}]
 
  {\scshape Ad primum ergo dicendum} quod actus, licet sit posterior
  potentia in esse, est tamen prior in intentione et secundum rationem,
@@ -991,7 +920,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  proportionantur ea quae sunt intrinseca rei.
 
  
-&
+\switchcolumn
 
  第一異論に対しては、それゆえ、以下のように言われるべきである。作用は、
  存在において、能力よりも後だが、意図においてや性格に即して、先である。
@@ -999,10 +928,7 @@ Ex his autem duobus actio speciem recipit, scilicet ex principio, vel
  かに外的なものだが、作用の根源または目的である。そして根源と目的な、
  事物に内在的な事柄に比例的に関係する。
 
-
-\\
-
-
+\switchcolumn*[\subsection{ad 2}]
 {\scshape Ad secundum dicendum} quod, si potentia aliqua per se
 respiceret unum contrariorum sicut obiectum, oporteret quod contrarium
 ad aliam potentiam pertineret. Sed potentia animae non per se respicit
@@ -1012,7 +938,7 @@ rationem coloris. Et hoc ideo, quia unum contrariorum est quodammodo
 ratio alterius, cum se habeant sicut perfectum et imperfectum.
  
  
-&
+\switchcolumn
 
  第二異論に対しては、以下のように言われるべきである。もしある能力が、
  自体的に、相反するものどもの一方に、対象に関係するようにして関係した
@@ -1024,23 +950,20 @@ ratio alterius, cum se habeant sicut perfectum et imperfectum.
  よる。なぜなら、一方はもう片方に、完全なものが不完全なものに対するよ
  うな関係にあるからである。
 
-\\
-
-
+\switchcolumn*[\subsection{arg.3}]
  {\scshape Ad tertium dicendum} quod nihil prohibet id quod est
  subiecto idem esse diversum secundum rationem. Et ideo potest ad
  diversas potentias animae pertinere.
 
  
-&
+\switchcolumn
 
  第三異論に対しては、以下のように言われるべきである。基体において同一
  のものが、性格において多様なものであることは差し支えない。ゆえに、そ
  れらは魂の多様な能力に属しうる。
 
 
-\\
-
+\switchcolumn*[\subsection{arg.4}]
  {\scshape Ad quartum dicendum} quod potentia superior per se respicit
  universaliorem rationem obiecti, quam potentia inferior, quia quanto
  potentia est superior, tanto ad plura se extendit. Et ideo multa
@@ -1051,7 +974,7 @@ ratio alterius, cum se habeant sicut perfectum et imperfectum.
  potentiae subduntur.
 
   
-&
+\switchcolumn
 
 第四異論に対しては、以下のように言われるべきである。上位の能力は、下位
 の能力よりも、自体的に、より普遍的な対象の性格に関係する。なぜなら、能
@@ -1062,26 +985,26 @@ ratio alterius, cum se habeant sicut perfectum et imperfectum.
 しそれらが、一つの上位の能力に従属するということがある。
 
 
-\end{longtable}
+\end{paracol}
+
 \newpage
 
+\rhead{a.4}
+\section{UTRUM IN POTENTIIS ANIMAE SIT ORDO}
+{\footnotesize Qu.~{\itshape de Anima}, art.13, ad 10.}
 
-\rhead{a.~4}
-\begin{center}
-{\Large {\bfseries ARTICULUS QUARTUS}}\\
-{\large UTRUM IN POTENTIIS ANIMAE SIT ORDO}\\
-{\footnotesize Qu.~{\itshape de Anima}, art.13, ad 10.}\\
-{\Large 第四項\\魂の諸能力の中に秩序があるか}
-\end{center}
+\vspace{1em}
+\textbf{{\Large 第四項  魂の諸能力の中に秩序があるか}}
+\vspace{2em}
 
-\begin{longtable}{p{21em}p{21em}}
+\begin{paracol}{2}[\subsection{arg.1}]
 {\scshape Ad quartum sic proceditur}. Videtur quod in potentiis animae
 non sit ordo. In his enim quae cadunt sub una divisione, non est prius
 et posterius, sed sunt naturaliter simul. Sed potentiae animae contra
 se invicem dividuntur. Ergo inter eas non est ordo.
 
  
-&
+\switchcolumn
 
  第四項の問題へ、議論は以下のように進められる。魂の諸能力の中に秩序は
  ないと思われる。理由は以下の通り。一つの分割のもとにあるものに前後は
@@ -1089,7 +1012,7 @@ se invicem dividuntur. Ergo inter eas non est ordo.
  割される。ゆえに、それらの間に秩序はない。
 
 
-\\
+\switchcolumn*[\subsection{arg.2}]
 
 
 
@@ -1100,25 +1023,21 @@ diversa et penitus disparata, ut patet de colore et sono. In potentiis
 ergo animae non est ordo.
 
  
-&
+\switchcolumn
 
 さらに、魂の諸能力は、対象と魂自身に関係づけられる。しかるに、魂の側か
 らは、それらの間に秩序はない。なぜなら魂は一つだから。同様に対象の側か
 らもない。なぜなら、色と音について明らかであるように、対象は多様であり、
 まったくばらばらだから。ゆえに、魂の諸能力の中に秩序はない。
 
-\\
-
-
-
-
+\switchcolumn*[\subsection{arg.3}]
 3. {\scshape Praeterea}, in potentiis ordinatis hoc invenitur, quod
 operatio unius dependet ab operatione alterius. Sed actus unius
 potentiae animae non dependet ab actu alterius, potest enim visus
 exire in actum absque auditu, et e converso. Non ergo inter potentias
 animae est ordo.
  
-&
+\switchcolumn
 
 さらに、秩序付けられた諸能力においては、ある能力の働きが、他の能力の働
 きに依存するということが見出される。しかるに、魂の一つの能力の作用は、
@@ -1126,66 +1045,54 @@ animae est ordo.
 ことができるし、その逆もできる。ゆえに魂の諸能力の中に秩序はない。
  
 
-\\
-
-
-
-
+\switchcolumn*[\subsection{s.c.}]
  {\scshape Sed contra est} quod philosophus, in II {\itshape de
  Anima}, comparat partes sive potentias animae figuris. Sed figurae
  habent ordinem ad invicem. Ergo et potentiae animae.
 
  
-&
+\switchcolumn
 
 しかし反対に、哲学者は『デ・アニマ』第2巻で、魂の諸部分ないし諸能力を、
 形（図形）になぞらえている。しかるに、形は相互に秩序をもつ。ゆえに魂の
 諸能力もそうである。
 
-\\
-
-
+\switchcolumn*[\subsection{Corpus}]
 
 
  {\scshape Respondeo dicendum} quod, cum anima sit una, potentiae vero
  plures; ordine autem quodam ab uno in multitudinem procedatur;
  necesse est inter potentias animae ordinem esse.
-
  
-&
 
-解答する。以下のように言われるべきである。魂は一つだが能力は複数であり、一から多へ
+\switchcolumn
 
-\\
+解答する。以下のように言われるべきである。魂は一つであり能力は複数であるが、一から多へと進められるのは何らかの秩序によってだから、魂の諸能力の間に何らかの秩序があるのは必然である。
 
-
- Triplex autem ordo
- inter eas attenditur. Quorum duo considerantur secundum dependentiam
- unius potentiae ab altera, tertius autem accipitur secundum ordinem
- obiectorum.
+\switchcolumn*
 
 
+Triplex autem ordo inter eas attenditur. Quorum duo considerantur secundum
+dependentiam unius potentiae ab altera, tertius autem accipitur secundum ordinem
+obiectorum.
  
-&
+\switchcolumn
 
+  しかるに、それらの間には、三通りの仕方で秩序が見出される。そのうちの二つは、一つの能力の他の能力への依存に従って考察され、三番目は、対象の秩序に従って了解される。  
 
-
-\\
-
+\switchcolumn*
 
  Dependentia autem unius potentiae ab altera dupliciter
  accipi potest, uno modo, secundum naturae ordinem, prout perfecta
  sunt naturaliter imperfectis priora; alio modo, secundum ordinem
  generationis et temporis, prout ex imperfecto ad perfectum
  venitur.
-
-
  
-&
+\switchcolumn
 
 
 
-\\
+\switchcolumn*
 
 
  Secundum igitur primum potentiarum ordinem, potentiae
@@ -1195,11 +1102,11 @@ animae est ordo.
 
 
  
-&
+\switchcolumn
 
 
 
-\\
+\switchcolumn*
 
 
  Secundum vero ordinem secundum,
@@ -1209,11 +1116,11 @@ animae est ordo.
 
 
  
-&
+\switchcolumn
 
 
 
-\\
+\switchcolumn*
 
 
  Et similiter est de potentiis sensitivis respectu
@@ -1224,11 +1131,11 @@ animae est ordo.
  naturaliter prior commixtione elementorum, quam consequitur odor.
 
  
-&
+\switchcolumn
 
 
 
-\\
+\switchcolumn*
 
 
 
@@ -1236,11 +1143,11 @@ animae est ordo.
  Ad primum ergo dicendum quod alicuius generis species se habent secundum prius et posterius, sicut numeri et figurae, quantum ad esse; licet simul esse dicantur inquantum suscipiunt communis generis praedicationem.
 
  
-&
+\switchcolumn
 
 
 
-\\
+\switchcolumn*
 
 
 
@@ -1248,11 +1155,11 @@ animae est ordo.
  Ad secundum dicendum quod ordo iste potentiarum animae est et ex parte animae, quae secundum ordinem quendam habet aptitudinem ad diversos actus, licet sit una secundum essentiam; et ex parte obiectorum; et etiam ex parte actuum, ut dictum est.
 
  
-&
+\switchcolumn
 
 
 
-\\
+\switchcolumn*
 
 
 
@@ -1260,15 +1167,10 @@ animae est ordo.
  Ad tertium dicendum quod ratio illa procedit de illis potentiis in quibus attenditur ordo solum secundum tertium modum. Illae autem potentiae quae ordinantur secundum alios duos modos, ita se habent quod actus unius dependet ab altera.
 
  
-&
+\switchcolumn
 
 
-
-
-
-\end{longtable}
-\newpage
-
+\end{paracol}
 \end{document}
 
 %\rhead{a.~}
@@ -1281,7 +1183,7 @@ animae est ordo.
 %
 %\begin{longtable}{p{21em}p{21em}}
 %
-%&
+%\switchcolumn
 %
 % 
 %
@@ -1327,7 +1229,7 @@ Ad tertium dicendum quod opinio Platonis fuit quod sentire est operatio animae p
 %
 %\begin{longtable}{p{21em}p{21em}}
 %
-%&
+%\switchcolumn
 %
 % 
 %
@@ -1373,7 +1275,7 @@ Ad tertium dicendum quod emanatio propriorum accidentium a subiecto non est per 
 %
 %\begin{longtable}{p{21em}p{21em}}
 %
-%&
+%\switchcolumn
 %
 % 
 %
@@ -1419,7 +1321,7 @@ Ad tertium dicendum quod potentiae animae opponuntur ad invicem oppositione perf
 %
 %\begin{longtable}{p{21em}p{21em}}
 %
-%&
+%\switchcolumn
 %
 % 
 %
@@ -1472,3 +1374,8 @@ Ad quintum dicendum quod tristitia et gaudium sunt in anima separata, non secund
 Ad sextum dicendum quod Augustinus loquitur ibi inquirendo, non asserendo. Unde quaedam ibi dicta retractat.
 
 
+
+%%% Local Variables:
+%%% mode: LaTeX
+%%% TeX-master: t
+%%% End:
