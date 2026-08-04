@@ -17,4 +17,4 @@ This repository contains the LuaLaTeX sources and generated PDF files for the Ja
 
 ## License
 
-Copyright © Yoshi Ueeda. All rights reserved.
+Copyright © Yoshinori Ueeda. All rights reserved.
