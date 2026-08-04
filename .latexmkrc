@@ -11,4 +11,5 @@ $pdf_previewer =
 $pvc_timeout = 1;
 $pvc_timeout_mins = 30;
 
-$out_dir = '..';
+# 親ディレクトリにpdfを作っていた頃の名残
+# $out_dir = '..';

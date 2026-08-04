@@ -20,8 +20,6 @@
 # LuaTeX-ja
 *.ltjruby
 
-# generated pdf
-*.pdf
 
 # emacs
 *~

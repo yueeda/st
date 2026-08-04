@@ -11,7 +11,12 @@
 %   - Unicode Greek を使用可能
 %   - Babel/LGR の古い \textgreek{...} 入力を維持
 %   - hyperref による PDF しおり対応
-%=================================================================
+%
+% AUCTeXでコンパイルするときの注意
+% LuaLaTeX プロジェクトでは、最初に、
+% C-c C-c → LatexMkRC
+% を選択すること。
+% =================================================================
 
 \documentclass[
 paper=a4paper,
@@ -23,8 +28,7 @@ titlepage
 \input{preamble}
 
 %----- header -------
-\pagestyle{fancy}
-\lhead{{\itshape Summa Theologiae} X, q.XX}
+\lhead{\textit{Summa Theologiae} X, q.XX}
 %--------------------
 
 
