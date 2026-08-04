@@ -1,59 +1,14 @@
-# ST LuaLaTeX Sources
+# ST (Summa Theologiae)
 
-LuaLaTeX source files for the Japanese translation of *Summa Theologiae* by Thomas Aquinas.
+Japanese translation project of Thomas Aquinas' *Summa Theologiae*.
 
-## Purpose
+## Contents
 
-This repository contains the current LuaLaTeX sources used for editing and maintaining the translation.
-
-Compiled PDF files are stored and published separately.
-
-## Directory Structure
-
-* `*.tex` — translation source files
-* `.latexmkrc` — build configuration for latexmk
-* `.gitignore` — Git ignore rules
+- LaTeX sources
+- Generated PDF files
 
 ## Build
 
-Compile a source file with:
-
 ```bash
-latexmk <filename>.tex
-```
+./rebuild-all.sh
 
-The generated PDF is placed in the parent `ST/` directory.
-
-## Related Repositories
-
-* `st-uplatex` — legacy upLaTeX sources
-* `st-lualatex` — current LuaLaTeX sources
-
-## Notes
-
-This repository is intended for source management and version control.
-
-Publicly available PDF files are published separately.
-
-## Basic workflow
-
-```bash
-git status
-git add <file>
-git commit -m "message"
-git push
-```
-
-## Change Log
-### 2026-06-06 preamble.tex
-
-LaTeX project structure:
-
-- template.tex contains document skeleton
-- preamble.tex contains shared package/configuration settings
-- new ST1-*.tex files should be created from template.tex
-- research notes are managed separately in Denote
-
-### 2026-06-07
-- fontencを入れるとitalic, boldなどが出なくなるので、preamble.texから `\usepackage[LGR,T1]{fontenc}` を削除。
-- uplatex/ファイルの中のtextgreekをunicodeに変換(per Chappy)
