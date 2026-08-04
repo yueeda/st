@@ -2,6 +2,8 @@
 
 Japanese translation project of Thomas Aquinas' *Summa Theologiae*.
 
+This repository contains the LuaLaTeX sources and generated PDF files for the Japanese translation of the *Summa Theologiae*.
+
 ## Contents
 
 - LaTeX sources
@@ -11,4 +13,8 @@ Japanese translation project of Thomas Aquinas' *Summa Theologiae*.
 
 ```bash
 ./rebuild-all.sh
+```
 
+## License
+
+Copyright © Yoshi Ueeda. All rights reserved.
