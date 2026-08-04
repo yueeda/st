@@ -1,13 +1,15 @@
 # Lecture materials
 *_lecture.tex
+*_note.tex
 
 # Experimental files
 *_test.tex
+test*.tex
 
 # template
 template.tex
 ST_template.tex
 
-# working yet
+# not finished yet
 ST22-16.tex
 
