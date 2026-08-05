@@ -30,3 +30,9 @@
 # private lecture/note files
 *_note.*
 *_lecture.*
+
+# old template
+ST_template.tex
+
+# test files
+test.*
