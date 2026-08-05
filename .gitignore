@@ -26,3 +26,7 @@
 
 # macOS
 .DS_Store
+
+# private lecture/note files
+*_note.*
+*_lecture.*
