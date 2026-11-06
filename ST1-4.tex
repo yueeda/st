@@ -18,18 +18,15 @@ Aquinatis\\Quaestio Quarta\\{\bfseries De Dei Perfectione}}
 % {\Large {\bfseries }}\\
 % {\large }\\
 % {\footnotesize }\\
-% {\Large \\}
+% {\Large \}\\
 %\end{center}
 %
-%\begin{longtable}{p{21em}p{21em}}
-%
-%&
-%
-%\\
-%\end{longtable}
+%\begin{paracol}{2}[\subsection{arg.1}]
+% 原文
+%\switchcolumn
+% 日本語訳
+%\end{paracol}
 %\newpage
-
-
 \begin{document}
 
 \maketitle
@@ -37,7 +34,8 @@ Aquinatis\\Quaestio Quarta\\{\bfseries De Dei Perfectione}}
  {\Large 第四問\\神の完全性について}
 \end{center}
 
-\begin{longtable}{p{21em}p{21em}}
+\begin{paracol}{2}
+
 Post considerationem divinae simplicitatis, de perfectione ipsius Dei
  dicendum est. Et quia unumquodque, secundum quod perfectum est, sic
  dicitur bonum, primo agendum est de perfectione divina; secundo de eius
@@ -49,7 +47,7 @@ Post considerationem divinae simplicitatis, de perfectione ipsius Dei
  \item utrum creaturae similes Deo dici possint.
 \end{enumerate}
 
-&
+\switchcolumn
 
 神の単純性の考察の後に、神自身の完全性について語られるべきである。各々
 のものは完全である限りにおいて善であると言われるので、第一に神の完全性
@@ -61,9 +59,13 @@ Post considerationem divinae simplicitatis, de perfectione ipsius Dei
  \item 被造物が神に似ていると言われうるか。
 \end{enumerate}
 
-\end{longtable}
+\end{paracol}
 
 \newpage
+\phantomsection
+\addcontentsline{toc}{section}{第一項　神は完全か}
+\setcounter{section}{1}
+\setcounter{subsection}{0}
 \rhead{a.~1}
 \begin{center}
  {\Large {\bfseries ARTICULUS PRIMUS}}\\
@@ -74,62 +76,59 @@ Post considerationem divinae simplicitatis, de perfectione ipsius Dei
  {\Large 第一項\\神は完全か}
 \end{center}
 
-\begin{longtable}{p{21em}p{21em}}
+\begin{paracol}{2}[\subsection{arg.1}]
 
 {\huge A}{\scshape d primum sic proceditur}. Videtur quod esse
  perfectum non conveniat Deo. Perfectum enim dicitur quasi totaliter
  factum. Sed Deo non convenit esse factum. Ergo nec esse perfectum.
 
-&
+\switchcolumn
 
 第一の問題へ議論は以下のように進められる。完全であるということは、神に
 ふさわしくないと思われる。理由は以下の通り。完全なものとは、全く作られ
 たもの、という意味で言われる。しかし作られるということは神にふさわしく
 ない。ゆえに、完全であるということも神にふさわしくない。
 
-\\
-
+\switchcolumn*[\subsection{arg.2}]
 
 2.~{\scshape Praeterea}, Deus est primum rerum principium. Sed
 principia rerum videntur esse imperfecta, semen enim est principium
 animalium et plantarum. Ergo Deus est imperfectus.
 
-&
+\switchcolumn
 
 さらに、神は事物の第一根源である。しかるに事物の根源は不完全であるよう
 に見える。たとえば、種子は動物と植物の根源である。ゆえに神は不完全であ
 る。
 
-\\
-
+\switchcolumn*[\subsection{arg.3}]
 
 3.~{\scshape Praeterea}, ostensum est supra quod essentia Dei est
 ipsum esse. Sed ipsum esse videtur esse imperfectissimum, cum sit
 communissimum, et recipiens omnium additiones. Ergo Deus est
-imperfectus.  
+imperfectus.
 
-&
+\switchcolumn
 
 さらに、以前に、神の本質は神の存在であることが示された。しかるに存在そ
 のものはもっとも不完全なものであるように思われる。なぜならそれはもっと
 も共通で、すべてのものの付加を受け取るからである。ゆえに神は不完全であ
 る。
 
+\switchcolumn*[\subsection{s.c.}]
 
-\\
-
- {\scshape Sed contra est} quod dicitur {\itshape Matt}.~{\scshape v},
+{\scshape Sed contra est} quod dicitur {\itshape Matt}.~{\scshape v},
  {\itshape estote perfecti, sicut et pater vester caelestis perfectus
  est}.
-&
+
+\switchcolumn
 
 しかし反対に、『マタイによる福音書』5章で「あなたたちの天の父が完全で
 あるように、あなたたちも完全でありなさい」\footnote{「だから、あなたが
 たの天の父が完全であられるように、あなたがたも完全な者となりなさい」
 (5:48)}と言われている。
 
-\\
-
+\switchcolumn*[\subsection{corpus}]
 
 {\scshape Respondeo dicendum quod}, sicut philosophus narrat in XII
 {\itshape Metaphys}., quidam antiqui philosophi, scilicet Pythagorici
@@ -140,7 +139,7 @@ imperfectissimum est. Cum enim materia, inquantum huiusmodi, sit in
 potentia, oportet quod primum principium materiale sit maxime in
 potentia; et ita maxime imperfectum.
 
-&
+\switchcolumn
 
 解答する。以下のように言われるべきである。哲学者が『形而上学』第12巻で
 語るように、古代のある哲学者たち、すなわち、ピュタゴラス派の人々やスペ
@@ -150,8 +149,7 @@ potentia; et ita maxime imperfectum.
 質料である限り、可能態にあるので、質料的な第一根源は、最大限に可能態に
 あり、したがって、最大限に不完全でなければならない。
 
-
-\\
+\switchcolumn*
 
 Deus autem ponitur primum principium, non materiale, sed in genere
 causae efficientis, et hoc oportet esse perfectissimum. Sicut enim
@@ -161,7 +159,7 @@ esse in actu, et per consequens maxime esse perfectum. Secundum hoc
 enim dicitur aliquid esse perfectum, secundum quod est actu, nam
 perfectum dicitur, cui nihil deest secundum modum suae perfectionis.
 
-&
+\switchcolumn
 
 ところで、神は、質料的な第一根源ではなく、作出因の類の中で、第一根源だ
 とされる。そして、そのようなものは、もっとも完全でなければならない。質
@@ -172,8 +170,7 @@ perfectum dicitur, cui nihil deest secundum modum suae perfectionis.
 から。すなわち、完全と言われるのは、自らの完全性の度合いに応じて、何も
 欠けることがないものなのである。
 
-\\
-
+\switchcolumn*[\subsection{ad.1}]
 
 {\scshape Ad primum ergo dicendum} quod, sicut dicit Gregorius,
 balbutiendo ut possumus, excelsa Dei resonamus, quod enim factum non
@@ -181,7 +178,10 @@ est, perfectum proprie dici non potest. Sed quia in his quae fiunt,
 tunc dicitur esse aliquid perfectum, cum de potentia educitur in
 actum; transumitur hoc nomen perfectum ad significandum omne illud cui
 non deest esse in actu, sive hoc habeat per modum factionis, sive non.
-&第一異論に対しては、それ故、次のように言われるべきである。グレゴリウ
+
+\switchcolumn
+
+第一異論に対しては、それ故、次のように言われるべきである。グレゴリウ
 スが述べているように、「私たちは、できるかぎり、口ごもりながら、神の卓
 越したところを語る。作られたのではないものが、完全であるとは、厳密には
 言われ得ない」。しかし、作られたものどもにおいて、それが可能態から現実
@@ -190,8 +190,7 @@ non deest esse in actu, sive hoc habeat per modum factionis, sive non.
 ように、作られるというかたちでそれを持つかどうかにかかわらず、転用され
 るのである。
 
-
-\\
+\switchcolumn*[\subsection{ad.2}]
 
 {\scshape Ad secundum dicendum} quod principium materiale, quod apud
 nos imperfectum invenitur, non potest esse simpliciter primum, sed
@@ -199,10 +198,9 @@ praeceditur ab alio perfecto. Nam semen, licet sit principium animalis
 generati ex semine, tamen habet ante se animal vel plantam unde
 deciditur. Oportet enim ante id quod est in potentia, esse aliquid
 actu, cum ens in potentia non reducatur in actum, nisi per aliquod ens
-in actu.  
+in actu.
 
-
-&
+\switchcolumn
 
 第二異論に対しては次のように言われるべきである。質料的根源は、私たちの
 もとで、不完全なものとして見出されるので、端的に第一のものではありえず、
@@ -212,8 +210,7 @@ in actu.
 可能態において存在するものは、現実態においてある何かによらなければ、現
 実態に引き出されないからである。
 
-
-\\
+\switchcolumn*[\subsection{ad.3}]
 
 {\scshape Ad tertium dicendum} quod ipsum esse est perfectissimum
 omnium, comparatur enim ad omnia ut actus. Nihil enim habet
@@ -224,7 +221,7 @@ recipiens. Cum enim dico esse hominis, vel equi, vel cuiuscumque
 alterius, ipsum esse consideratur ut formale et receptum, non autem ut
 illud cui competit esse.
 
-&
+\switchcolumn
 
 第三異論に対しては次のように言われるべきである。存在そのものは、すべて
 のものの中でもっとも完全である。なぜなら、すべてのものに対して現実態と
@@ -238,10 +235,14 @@ illud cui competit esse.
 存在することがそれに当てはまるところのそれ［つまり本質］と考えられてい
 るのではない。
 
-\end{longtable}
+\end{paracol}
 
 
 \newpage
+\phantomsection
+\addcontentsline{toc}{section}{第二項　神の中にすべての事物の完全性があるか}
+\setcounter{section}{2}
+\setcounter{subsection}{0}
 \rhead{a.~2}
 
 \begin{center}
@@ -253,34 +254,30 @@ illud cui competit esse.
  {\Large 第二項\\神の中にすべての事物の完全性があるか }
 \end{center}
 
-\begin{longtable}{p{21em}p{21em}}
-
- 
+\begin{paracol}{2}[\subsection{arg.1}]
 
 {\huge A}{\scshape d secundum sic proceditur}. Videtur quod in Deo non
 sint perfectiones omnium rerum. Deus enim simplex est, ut ostensum
 est. Sed perfectiones rerum sunt multae et diversae. Ergo in Deo non
-sunt omnes perfectiones rerum.  
+sunt omnes perfectiones rerum.
 
-
-&
+\switchcolumn
 
 第二項の問題へ、議論は以下のように進められる。神の中に万物の完全性があ
 るわけがないと思われる。理由は以下の通り。神はすでに示されたように単純
 である。しかるに、事物の完全性は数多くさまざまである。ゆえに、神におい
 て万物の完全性があるわけではない。
 
-\\
+\switchcolumn*[\subsection{arg.2}]
 
 2.~{\scshape Praeterea}, opposita non possunt esse in eodem. Sed
 perfectiones rerum sunt oppositae, unaquaeque enim species perficitur
 per suam differentiam specificam; differentiae autem quibus dividitur
 genus et constituuntur species, sunt oppositae. Cum ergo opposita non
 possint simul esse in eodem, videtur quod non omnes rerum perfectiones
-sint in Deo.  
+sint in Deo.
 
-
-&
+\switchcolumn
 
 さらに、対立するものは同一のものの中に存在しえない。しかるに諸事物の完
 全性は対立する。なぜなら、各々の種はみずからの種差によって完成されるが、
@@ -288,34 +285,32 @@ sint in Deo.
 するからである。ゆえに、対立するものは同一のものの中に同時にありえない
 ので、万物の完全性が神の内にあるのではないと思われる。
 
-\\
+\switchcolumn*[\subsection{arg.3}]
 
 3.~{\scshape Praeterea}, vivens est perfectius quam ens, et sapiens
 quam vivens, ergo et vivere est perfectius quam esse, et sapere quam
 vivere. Sed essentia Dei est ipsum esse. Ergo non habet in se
 perfectionem vitae et sapientiae, et alias huiusmodi perfectiones.
 
-&
+\switchcolumn
 
 さらに、生きるものは存在するものよりも完全であり、知恵あるものは生きる
 ものよりも完全である。ゆえに、生きることは存在することよりも完全であり、
 知恵あることは生きることよりも完全である。しかるに神の本質は神の存在で
 ある。ゆえに、自らの中に生命や知恵やそのほかの完全性をもつわけではない。
 
-\\
-
+\switchcolumn*[\subsection{s.c.}]
 
 {\scshape Sed contra est} quod dicit Dionysius, cap.~{\scshape v}
  {\itshape de Div.~Nom.}, quod {\itshape Deus in uno existentia omnia
  praehabet}.
 
-
-&
+\switchcolumn
 
 しかし反対に、ディオニュシウスは『神名論』第5章で、神は一つのものにお
 いて存在するすべてをあらかじめもつ、と述べている。
 
-\\
+\switchcolumn*[\subsection{corpus}]
 
 {\scshape Respondeo dicendum} quod in Deo sunt perfectiones omnium
 rerum. Unde et dicitur universaliter perfectus, quia non deest ei
@@ -323,8 +318,7 @@ aliqua nobilitas quae inveniatur in aliquo genere, ut dicit
 Commentator in V {\itshape Metaphys}. Et hoc quidem ex duobus
 considerari potest.
 
-
-&
+\switchcolumn
 
 解答する。以下のように言われるべきである。解答する。以下のように言われ
 るべきである。神において、万物の完全性が存在する。このことから、神はま
@@ -333,7 +327,7 @@ considerari potest.
 神に欠けていないからである。そしてこのことは、二つのことから考察されう
 る。
 
-\\
+\switchcolumn*
 
 Primo quidem, per hoc quod quidquid perfectionis est in effectu,
 oportet inveniri in causa effectiva, vel secundum eandem rationem, si
@@ -351,7 +345,7 @@ rationem tangit Dionysius, cap.~{\scshape v} {\itshape de Div.~Nom}.,
 dicens de Deo quod {\itshape non hoc quidem est, hoc autem non est,
 sed omnia est, ut omnium causa}.
 
-&
+\switchcolumn
 
 第一に、結果の中にある完全性に属するものはなんであれ、それを作り出す原
 因の中に、同一の性格に従って見いだされるか、あるいは、よりすぐれたかた
@@ -370,8 +364,7 @@ sed omnia est, ut omnium causa}.
 れであり、これでない、というのではなく、万物の原因として万物である」と
 言うとき、彼はこの点に触れている。
 
-\\
-
+\switchcolumn*
 
 Secundo vero, ex hoc quod supra ostensum est, quod Deus est ipsum esse
 per se subsistens, ex quo oportet quod totam perfectionem essendi in
@@ -381,7 +374,7 @@ secundum perfectam rationem, sed si calor esset per se subsistens, non
 posset ei aliquid deesse de virtute caloris. Unde, cum Deus sit ipsum
 esse subsistens, nihil de perfectione essendi potest ei deesse.
 
-&
+\switchcolumn
 
 第二に、上で示されたこと、すなわち、神が自らによって自存する存在そのも
 のであるということから（万物の完全性が神の中にあることが考えられる）。
@@ -392,8 +385,7 @@ esse subsistens, nihil de perfectione essendi potest ei deesse.
 けるということはありえなかっただろう。したがって、神は、自存する存在そ
 のものなので、存在の完全性のうちの何も欠けていない。
 
-\\
-
+\switchcolumn*
 
 Omnium autem perfectiones pertinent ad perfectionem essendi, secundum
 hoc enim aliqua perfecta sunt, quod aliquo modo esse habent. Unde
@@ -403,7 +395,7 @@ quod Deus {\itshape non quodammodo est existens, sed simpliciter et
 incircumscripte totum in seipso uniformiter esse praeaccipit, et
 postea subdit quod ipse est esse subsistentibus}.
 
-&
+\switchcolumn
 
 ところで、万物の完全性は、存在の完全性に属する。なぜなら、あるものが完
 全であるのは、何らかのかたちで、それが存在を持つからなのだから。このこ
@@ -413,8 +405,7 @@ postea subdit quod ipse est esse subsistentibus}.
 」と言い、後に、「神は、自存するものたちにとっての存在である」と述べる
 とき、彼は、この理由に触れている。
 
-\\
-
+\switchcolumn*[\subsection{ad.1}]
 
 {\scshape Ad primum ergo dicendum} quod, sicut sol, ut dicit
 Dionysius, cap.~{\scshape v} {\itshape de Div.~Nom}., {\itshape
@@ -425,7 +416,7 @@ secundum naturalem unionem}. Et sic, quae sunt diversa et opposita in
 seipsis, in Deo praeexistunt ut unum, absque detrimento simplicitatis
 ipsius.
 
-&
+\switchcolumn
 
 第一異論に対しては、それゆえ、次のように言わなければならない。ディオニュ
 シウスが、『神名論』第5章で述べるように、「太陽が、一つの存在するもの
@@ -435,17 +426,15 @@ ipsius.
 それ自身においてはさまざまで対立するものが、神において、神の単純性を損
 なうことなく、ひとつのものとして先在する。
 
-\\
-
-
+\switchcolumn*[\subsection{ad.2}]
 
 Et per hoc patet solutio ad secundum.
 
-&
+\switchcolumn
 
 このことによって、第二異論に対する解答は明らかである。
 
-\\
+\switchcolumn*[\subsection{ad.3}]
 
 {\scshape Ad tertium dicendum} quod, sicut in eodem capite idem
 Dionysius dicit, licet ipsum esse sit perfectius quam vita, et ipsa
@@ -458,7 +447,7 @@ ipsum esse Dei includit in se vitam et sapientiam; quia nulla de
 perfectionibus essendi potest deesse ei quod est ipsum esse
 subsistens.
 
-&
+\switchcolumn
 
 第三異論に対しては、次のように言わなければならない。同じ章でディオニュ
 シウスが述べるように、概念（ratio）によって区別されるかぎりで考察され
@@ -472,10 +461,13 @@ subsistens.
 内に生命と知恵を含む。なぜなら、自存する存在そのものであるものから、存
 在の完全性に属する何かが欠けることはありえないからである。
 
-
-\end{longtable}
+\end{paracol}
 
 \newpage
+\phantomsection
+\addcontentsline{toc}{section}{第三項　なんらかの被造物が神に似たものでありうるか}
+\setcounter{section}{3}
+\setcounter{subsection}{0}
 \rhead{a.~3}
 
 \begin{center}
@@ -488,15 +480,15 @@ subsistens.
  {\Large 第三項\\なんらかの被造物が神に似たものでありうるか }
 \end{center}
 
-\begin{longtable}{p{21em}p{21em}}
+\begin{paracol}{2}[\subsection{arg.1}]
+
 {\huge A}{\scshape d tertium sic proceditur}. Videtur quod nulla
 creatura possit esse similis Deo. Dicitur enim in Psalmo, {\itshape
 non est similis tui in diis, Domine}. Sed inter omnes creaturas,
 excellentiores sunt quae dicuntur dii participative. Multo ergo minus
 aliae creaturae possunt dici Deo similes.
 
-
-&
+\switchcolumn
 
 第三項の問題へ、議論は以下のように進められる。どんな被造物も神に似てい
 ることは不可能だと思われる。理由は以下の通り。『詩篇』に、「神々の中に、
@@ -506,7 +498,7 @@ aliae creaturae possunt dici Deo similes.
 たちが、分有のかたちで、神々と言われている。ゆえに、ましてや、それ以外
 の被造物が神に似ているとは言われえない。
 
-\\
+\switchcolumn*[\subsection{arg.2}]
 
 2.~{\scshape Praeterea}, similitudo est comparatio quaedam. Non est
  autem comparatio eorum quae sunt diversorum generum; ergo nec
@@ -514,7 +506,7 @@ aliae creaturae possunt dici Deo similes.
  nulla creatura est eiusdem generis cum Deo, cum Deus non sit in
  genere, ut supra ostensum est. Ergo nulla creatura est similis Deo.
 
- &
+\switchcolumn
 
 さらに、類似とは、一種の比較である。しかるに、異なる類に属するものども
 を比較することはできず、それゆえ、類似もありえない。たとえば、私たちは、
@@ -522,28 +514,28 @@ aliae creaturae possunt dici Deo similes.
 の中にないから、どんな被造物も神と同じ類に属さない。ゆえに、どんな被造
 物も神に似ることはない。
 
-\\
+\switchcolumn*[\subsection{arg.3}]
 
 3.~{\scshape Praeterea}, similia dicuntur quae conveniunt in
  forma. Sed nihil convenit cum Deo in forma, nullius enim rei essentia
  est ipsum esse, nisi solius Dei. Ergo nulla creatura potest esse
  similis Deo.
 
-&
+\switchcolumn
 
 さらに、似ているものとは、形相において一致するもののことである。しかる
 に、神と形相において一致するものはない。なぜなら、ただ神ひとりを除いて、
 事物の本質がそれの存在であるものはないからである。ゆえに、どんな被造物
 も神に似ることはありえない。
 
-\\
+\switchcolumn*[\subsection{arg.4}]
 
 4.~{\scshape Praeterea}, in similibus est mutua similitudo, nam simile
 est simili simile. Si igitur aliqua creatura est similis Deo, et Deus
 erit similis alicui creaturae. Quod est contra id quod dicitur Isaiae
 {\scshape xl}, {\itshape cui similem fecistis Deum}?
 
-&
+\switchcolumn
 
 さらに、似ているものどもにおいては、相互的な類似がある。すなわち、似る
 とは、似ているものに似るのである。ゆえに、もしある被造物が神に似ていた
@@ -552,13 +544,13 @@ erit similis alicui creaturae. Quod est contra id quod dicitur Isaiae
 神を誰に似せ、どのような像に仕立てようというのか。」(40:18)}と言われて
 いることに反する。
 
-\\
+\switchcolumn*[\subsection{s.c.}]
 
 {\scshape Sed contra est quod} dicitur {\itshape Gen}.~{\scshape i},
 {\itshape Faciamus hominem ad imaginem et similitudinem nostram}; et I
 Ioann.~{\scshape iii}, {\itshape cum apparuerit, similes ei erimus}.
 
-&
+\switchcolumn
 
 しかし反対に、『創世記』1章「人間を、私たちの似姿と類似に向けて創ろう」
 \footnote{「我々にかたどり、我々に似せて、人を造ろう。」(1:26)}、『ヨ
@@ -566,7 +558,7 @@ Ioann.~{\scshape iii}, {\itshape cum apparuerit, similes ei erimus}.
 \footnote{「御子が現れるとき、御子に似たものになるということを知ってい
 ます。」(3:2)}と言われている。
 
-\\
+\switchcolumn*[\subsection{corpus}]
 
 {\scshape Respondeo dicendum} quod, cum similitudo attendatur secundum
  convenientiam vel communicationem in forma, multiplex est similitudo,
@@ -576,8 +568,7 @@ Ioann.~{\scshape iii}, {\itshape cum apparuerit, similes ei erimus}.
  aequalia in sua similitudine; sicut duo aequaliter alba, dicuntur
  similia in albedine. Et haec est perfectissima similitudo.
 
-&
-
+\switchcolumn
 
 解答する。以下のように言われるべきである。類似は、形相における一致ない
 し共通性に応じて見出されるので、形相の共通性のさまざまなあり方に応じて、
@@ -587,21 +578,21 @@ Ioann.~{\scshape iii}, {\itshape cum apparuerit, similes ei erimus}.
 つの等しく白いものが、白さにおいて似ていると言われる場合がこれである。
 そしてこれは、もっとも完全な類似である。
 
-\\
+\switchcolumn*
 
 Alio modo dicuntur similia, quae communicant in forma secundum eandem
 rationem, et non secundum eundem modum, sed secundum magis et minus;
 ut minus album dicitur simile magis albo. Et haec est similitudo
 imperfecta.
 
-&
+\switchcolumn
 
 二つ目に似ていると言われるのは、同じ性格で形相において共通するが、同じ
 あり方ではなく、より多く、より少なくというかたちで共通する場合である。
 たとえば、あまり白くないものが、より白いものに似ていると言われる場合で
 ある。そしてこれは、不完全な類似である。
 
-\\
+\switchcolumn*
 
 Tertio modo dicuntur aliqua similia, quae communicant in eadem forma,
 sed non secundum eandem rationem; ut patet in agentibus non
@@ -616,7 +607,7 @@ generantur ex virtute solis, accedunt quidem ad aliquam similitudinem
 solis, non tamen ut recipiant formam solis secundum similitudinem
 speciei, sed secundum similitudinem generis.
 
-&
+\switchcolumn
 
 第三に、あるものが似ていると言われるのは、同一の形相において共通するが、
 同一の性格においてではない場合である。これは、一義的でない作用者の場合
@@ -631,7 +622,7 @@ speciei, sed secundum similitudinem generis.
 の結果、太陽の形相を種の類似に従って受け取るのではなく、類の類似に従っ
 て受け取る。
 
-\\
+\switchcolumn*
 
 Si igitur sit aliquod agens, quod non in genere contineatur, effectus
 eius adhuc magis accedent remote ad similitudinem formae agentis, non
@@ -641,7 +632,7 @@ sicut ipsum esse est commune omnibus. Et hoc modo illa quae sunt a
 Deo, assimilantur ei inquantum sunt entia, ut primo et universali
 principio totius esse.
 
-&
+\switchcolumn
 
 ゆえに、類の中に含まれない何らかの作用者が存在するならば、それの結果は、
 作用者の形相の類似へと遠くから近づくが、作用者の形相の類似を、同一の種
@@ -650,7 +641,7 @@ principio totius esse.
 であるように。このようにして、神によって存在するものは、存在するもので
 ある限りにおいて、存在全体の第一で普遍的な根源としての神に類似する。
 
-\\
+\switchcolumn*[\subsection{ad.1}]
 
 {\scshape Ad primum ergo dicendum} quod, sicut dicit Dionysius
 cap.~{\scshape ix} {\itshape de Div.~Nom}., cum sacra Scriptura dicit
@@ -662,7 +653,7 @@ deficiunt a sua causa}; non solum secundum intensionem et remissionem,
 sicut minus album deficit a magis albo; sed quia non est convenientia
 nec secundum speciem nec secundum genus.
 
-&
+\switchcolumn
 
 第一異論に対しては、それゆえ、次のように言わなければならない。ディオニュ
 シウスが『神名論』第9章で述べるように、「聖書が、何かが神に似ていない
@@ -673,34 +664,33 @@ nec secundum speciem nec secundum genus.
 がより白いものに及ばないように、強度の強弱によってだけでなく、種におい
 ても類においても一致しないからである。
 
-
-\\
+\switchcolumn*[\subsection{ad.2}]
 
 {\scshape Ad secundum dicendum} quod Deus non se habet ad creaturas
 sicut res diversorum generum, sed sicut id quod est extra omne genus,
-et principium omnium generum.  
+et principium omnium generum.
 
-&
+\switchcolumn
 
 第二異論に対しては、次のように言わなければならない。神は、被造物に対し
 て、異なる類に属するものとして関係するのではなく、すべての類の外にある
 ものとして、すべての類の根源として、関係する。
 
-\\
+\switchcolumn*[\subsection{ad.3}]
 
 {\scshape Ad tertium dicendum} quod non dicitur esse similitudo
 creaturae ad Deum propter communicantiam in forma secundum eandem
 rationem generis et speciei, sed secundum analogiam tantum; prout
 scilicet Deus est ens per essentiam, et alia per participationem.
 
-&
+\switchcolumn
 
 第三異論に対しては、次のように言わなければならない。被造物の神への類似
 があると言われるのは、同じ類や種の性格にしたがって、形相において共通す
 るためではなく、たんにアナロギアにおいて共通するからである。すなわち、
 神は本質による存在者、他のものは分有による存在者として。
 
-\\
+\switchcolumn*[\subsection{ad.4}]
 
 {\scshape Ad quartum dicendum} quod, licet aliquo modo concedatur quod
 creatura sit similis Deo, nullo tamen modo concedendum est quod Deus
@@ -709,10 +699,9 @@ sit similis creaturae, quia, ut dicit Dionysius cap.~{\scshape ix}
 mutua similitudo, non autem in causa et causato, dicimus enim quod
 imago sit similis homini, et non e converso. Et similiter dici potest
 aliquo modo quod creatura sit similis Deo, non tamen quod Deus sit
-similis creaturae.  
+similis creaturae.
 
-
-&
+\switchcolumn
 
 第四異論に対しては、次のように言わなければならない。被造物が神に似てい
 るということは、ある意味において、認められるけれども、神が被造物に似て
@@ -724,5 +713,5 @@ similis creaturae.
 とはある意味で言うことが可能だが、神が被造物に似ているということは、ど
 んな意味でも言うことができない。
 
-\end{longtable}
+\end{paracol}
 \end{document}

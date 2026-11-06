@@ -1,15 +1,32 @@
+# for f in ST*.tex ignore the followings
+
 # Lecture materials
+
 *_lecture.tex
 *_note.tex
 
 # Experimental files
+
 *_test.tex
-test*.tex
+
 
 # template
-template.tex
+
 ST_template.tex
 
 # not finished yet
+
+ST1-39.tex
+ST1-47.tex
+ST1-58.tex
+ST1-79.tex
+ST1-84.tex
+ST1-108.tex
+ST12-2.tex
+ST12-67.tex
 ST22-16.tex
+ST22-57.tex
+ST3-5.tex
+ST3-19.tex
+ST3-46.tex
 
